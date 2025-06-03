@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:nti_tasks/core/shared_widgets/custom_app_bar.dart';
 import 'package:nti_tasks/core/utils/app_size.dart';
 import 'package:nti_tasks/features/home/presentation/view/widgets/bottom_navigation_bar_widget.dart';
+import 'package:nti_tasks/features/home/presentation/view/widgets/home_body.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -17,6 +18,7 @@ class HomeScreen extends StatelessWidget {
         ),
       ),
       bottomNavigationBar: BottomNavigationBarWidget(),
+      body: HomeBody(),
     );
   }
 }
